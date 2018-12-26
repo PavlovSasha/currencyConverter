@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/Cellar/node/11.0.0/bin/node /usr/local/bin/yarn run lint
+
+PATH: 
+  /usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/Pavlusha/.rvm/gems/ruby-2.2.1/bin:/Users/Pavlusha/.rvm/gems/ruby-2.2.1@global/bin:/Users/Pavlusha/.rvm/rubies/ruby-2.2.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/Pavlusha/.rvm/gems/ruby-2.2.1/bin:/Users/Pavlusha/.rvm/gems/ruby-2.2.1@global/bin:/Users/Pavlusha/.rvm/rubies/ruby-2.2.1/bin:/Users/Pavlusha/.rvm/bin:/Users/Pavlusha/.rvm/bin
+
+Yarn version: 
+  1.4.0
+
+Node version: 
+  11.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject",
+      "lint": "eslint app/",
+      "lint:fix": "eslint app/ --fix"
+    },
+    "dependencies": {
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.1",
+      "babel-preset-expo": "^5.0.0",
+      "eslint": "^5.11.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-plugin-import": "^2.14.0",
+      "eslint-plugin-jsx-a11y": "^6.1.2",
+      "eslint-plugin-react": "^7.11.1"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c eslint app/
+  Directory: /Users/Pavlusha/prog/study/reactNative/currency-converter
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30822:17)
+      at ChildProcess.emit (events.js:182:13)
+      at maybeClose (internal/child_process.js:962:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
